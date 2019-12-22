@@ -1,0 +1,28 @@
+{
+  "name": "remove-comments",
+  "version": "0.0.1",
+  "description": "Remove line comments from languages that have single and double quote strings",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "types": "dist/index.d.ts",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^24.0.24",
+    "eslint": "^6.7.2",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.2.0",
+    "typescript": "^3.7.3"
+  },
+  "prettier": {
+    "tabWidth": 4,
+    "singleQuote": true,
+    "printWidth": 120
+  },
+  "dependencies": {
+    "xstate": "^4.7.3"
+  }
+}
