@@ -9,8 +9,8 @@
     "prepublish": "tsc"
   },
   "types": "dist/index.d.ts",
-  "author": "",
-  "license": "ISC",
+  "author": "Rony Liderman",
+  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^24.0.24",
     "eslint": "^6.7.2",
