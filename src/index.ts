@@ -46,7 +46,7 @@ function getEvent(char: string): Event {
     }
 }
 
-export function stripComments(text: string): string {
+export function removeComments(text: string): string {
     let i = 0;
 
     const fsm = Machine<Context, States, Event>(
