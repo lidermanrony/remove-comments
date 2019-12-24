@@ -54,3 +54,5 @@ testRemoveComments(
 );
 
 testRemoveComments('more than one newline', 'T|count//what\n\nyo', 'T|count\nyo');
+
+testRemoveComments('triple slash', 'print "what" /// yoyo', 'print "what" ');
