@@ -1,5 +1,5 @@
 {
-  "name": "remove-comments",
+  "name": "no-comments",
   "version": "0.0.1",
   "description": "Remove line comments from languages that have single and double quote strings",
   "main": "dist/index.js",
