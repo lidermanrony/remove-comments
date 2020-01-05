@@ -151,5 +151,5 @@ export function removeComments(text: string): string {
 
     stateService.stop();
 
-    return result;
+    return result.trim();
 }
